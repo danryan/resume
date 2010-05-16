@@ -133,9 +133,9 @@ I manage 150+ employees in the support department across three datacenters, whic
     
 I also manage the training department, where I am responsible for hiring, developing and mentoring a highly-skilled workforce.  I created a comprehensive training program capable of turning people with no prior Linux experience into very qualified and capable system administrators.  
     
-In addition, I am charged with the development and oversight of all projects, from creating new products to improving existing infrastructure.  I successfully launched an external knowledge base that increased revenue by improving search engine rankings and our online presence.  
+In addition, I am charged with the development and oversight of projects, from creating new products to improving existing infrastructure.  I successfully launched an external knowledge base that increased revenue by improving search engine rankings and our online presence.  
 
-On the marketing side, I maintain our websites for [Liquid Web](http://liquidweb.com) and [Storm on Demand](http://www.stormondemand.com). I write the copy for all promotional material, represent Liquid Web at conferences, and monitor our brand reputation across all major and social media outlets."
+On the marketing side, I maintain our websites for [Liquid Web](http://liquidweb.com) and [Storm on Demand](http://www.stormondemand.com). I write the copy for promotional material, represent Liquid Web at conferences, and monitor our brand reputation across all major and social media outlets."
   end
   experience.employment do |employment|
     employment.company = "DecisionOne, Inc."
@@ -145,6 +145,9 @@ On the marketing side, I maintain our websites for [Liquid Web](http://liquidweb
     employment.highlights
   end
 end
+
+
+
 
 puts resume.to_s
 puts RDiscount.new(resume.to_s).to_html
