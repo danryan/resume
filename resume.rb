@@ -106,17 +106,24 @@ end
 resume = DanRyan::Resume.new
 resume.summary = "
 I am passionate about learning in all its aspects, from self-study, to training a classroom of students, to experiencing the life lessons that every day brings.  There is no greater joy than helping others understand. 
+
+I am a geek.  I can spend 8 hours in front of a computer at work, and happily pick up right where I left off at home.  I am a gamer.  I enjoy games of all genres, but am particularly fond of indie games.  I am a comedian. 
+
+
+I am an optimist.  We are capable of amazing things when we have the right attitude and encouragement.
+
+
 "
 resume.objective = "
 I seek a small company with big dreams.  I want a challenging position that will push my abilities.  I want to work for a company that builds strong relationships with its employees; a company recognizes and fosters excellence; and a company that will empower me to grow alongside them.  Given what I have seen and heard all that Elevator Up has done, I have found the company I am looking for is you.
 "
 
 resume.build_skills do |skill|
-  skill.value = "Shell scripting and automation"
   skill.value = "Linux system administration"
   skill.value = "Web hosting"
   skill.value = "Database administration and optimization"
   skill.value = "Virtualization (Xen & KVM)"
+  skill.value = "Shell scripting and automation"
   skill.value = "Ruby development"
   skill.value = "Web design and development"
   skill.value = "Hardware design, implementation and management"
@@ -129,11 +136,11 @@ resume.build_experience do |experience|
     employment.start_date = Date.civil(2007, 5)
     employment.end_date = "Present"
     employment.highlights = "
-I manage 150+ employees in the support department across three datacenters, which is the largest department in the company.  I devised and implemented an organizational restructure to improve efficiency and, more importantly, the company's atmosphere and culture. 
+I manage 150+ employees in the support department across three datacenters, which is the largest department in the company, as well as our primary product.  I devised and implemented an organizational restructure to improve efficiency and, more importantly, the company's atmosphere and culture. 
     
 I also manage the training department, where I am responsible for hiring, developing and mentoring a highly-skilled workforce.  I created a comprehensive training program capable of turning people with no prior Linux experience into very qualified and capable system administrators.  
     
-In addition, I am charged with the development and oversight of projects, from creating new products to improving existing infrastructure.  I successfully launched an external knowledge base that increased revenue by improving search engine rankings and our online presence.  
+In addition, I am charged with the development and oversight of new products and improving existing infrastructure.  I successfully launched an external knowledge base that increased revenue by improving search engine rankings and our online presence.  
 
 On the marketing side, I maintain our websites for [Liquid Web](http://liquidweb.com) and [Storm on Demand](http://www.stormondemand.com). I write the copy for promotional material, represent Liquid Web at conferences, and monitor our brand reputation across all major and social media outlets."
   end
